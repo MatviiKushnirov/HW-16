@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 92, 31);
+}
+
+.bg-box{
+    width: 596px;
+    height: 380px;
+    background-image:  
+    url("./pole-zelen-trava-dom-derevya.jpg"), 
+    url("./lamp-png-34914.png"), 
+    url("./donut.png"), 
+    url("./green-png-44873.png"), 
+    url("./3F3F.webp");
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-x, repeat-y;
+    background-position: center, top left, top right, left bottom, top left;
+    background-size: 300px, 20px, 8%, 20%, 10%;
+}
